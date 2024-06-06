@@ -17,7 +17,7 @@ def send_adress(id,phone_number,lang,city,ADRESS_BISH):
         if city == 'BISH':
             return ADRESS_BISH.format(id,'Полный адрес',id,phone_number)
     else:
-        if city == 'KK':
+        if city == 'BISH':
             return ADRESS_BISH.format(id,'Толук адрес',id,phone_number)
     
 
